@@ -8,7 +8,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#572181",
-    "navigationBarTitleText": "阿狸",
+    "navigationBarTitleText": "阿狸婚纱摄影",
     "navigationBarTextStyle":"white",
     "enablePullDownRefresh":false
   },
@@ -16,13 +16,13 @@
     "list": [
       {
         "pagePath": "pages/home/home",
-        "text": "首页",
+        "text": "阿狸",
         "iconPath": "resources/home_normal.png",
         "selectedIconPath": "resources/home_select.png"
       },
       {
         "pagePath": "pages/mall/mall",
-        "text": "商城",
+        "text": "影城",
         "iconPath": "resources/mall_normal.png",
         "selectedIconPath": "resources/mall_select.png"
       },
