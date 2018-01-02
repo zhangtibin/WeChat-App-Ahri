@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/mall/mall",
+    "pages/message/message",
+    "pages/account/account"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#572181",
+    "navigationBarTitleText": "阿狸",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "resources/home_normal.png",
+        "selectedIconPath": "resources/home_select.png"
+      },
+      {
+        "pagePath": "pages/mall/mall",
+        "text": "商城",
+        "iconPath": "resources/mall_normal.png",
+        "selectedIconPath": "resources/mall_select.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "resources/message_normal.png",
+        "selectedIconPath": "resources/message_select.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "我的",
+        "iconPath": "resources/me_normal.png",
+        "selectedIconPath": "resources/me_select.png"
+      }
+    ],
+    "selectedColor": "#572181",
+    "color":"#999999",
+    "backgroundColor":"#f0f0f0",
+    "borderStyle":"black"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
