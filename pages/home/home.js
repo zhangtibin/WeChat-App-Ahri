@@ -9,7 +9,13 @@ Page({
    */
   data: {
     text: "这是个页面",
-    array: [{ msg: '1' }, { msg: '2' }]
+    array: [{ msg: '1' }, { msg: '2' }],
+    view: "MINA",
+    staffA: { firstName: 'Hulk', lastName: 'Hu' },
+    staffB: { firstName: 'Shang', lastName: 'You' },
+    staffC: { firstName: 'Gideon', lastName: 'Lin' },
+    count:1
+    
   },
 
   /**
@@ -86,7 +92,10 @@ Page({
   },
 
   WXScan: function () {
-    this.setData({ msg: "Hello World" })
+    this.setData({ 
+      msg: "Hello World",
+      count:this.data.count+1 
+      })
     //微信扫一扫
     wx.scanCode({
       success: (res) => {

@@ -1,3 +1,18 @@
-<view class='Container' bindtap='viewTap'>
-  <button bindtap="WXScan">扫一扫</button>
+<view class='Container' bindtap='viewTap' wx:if="{{view == 'MINA'}}"> MINA
+  <button bindtap="WXScan" >{{count}}扫一扫</button>
 </view>
+
+<template name="staffName">
+  <view>
+    FirstName: {{firstName}}, LastName: {{lastName}}
+  </view>
+</template>
+
+<template is="staffName" data="{{...staffA}}"></template>
+<template is="staffName" data="{{...staffB}}"></template>
+<template is="staffName" data="{{...staffC}}"></template>
+
+<block wx:if='{{true}}'>
+<view>view1</view>
+<view>view2</view>
+</block>

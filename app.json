@@ -3,7 +3,8 @@
     "pages/home/home",
     "pages/mall/mall",
     "pages/message/message",
-    "pages/account/account"
+    "pages/account/account",
+    "pages/mall/mallDetail/mallDetail"
   ],
   "window":{
     "backgroundTextStyle":"light",

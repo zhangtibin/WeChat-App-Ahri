@@ -1,0 +1,19 @@
+<!-- mall.wxml -->
+<scroll-view>
+  <view class="item-avatar-md" wx:for="{{list}}" wx:for-item="i" wx:key="index" data-name="{{i.title}}" data-id="{{i.id}}" bindtap="goToCinemaDetailPage">
+     <image src="{{i.image}}"></image> 
+    <!-- <view class="item-text">
+      <view class="text_box">
+        <view class="flex">
+          <text class="title">{{i.title}}</text>
+        </view>
+        <view class="flex" style="color:#3ccccc">
+          <text class="message">{{i.msg}}</text>
+        </view>
+      </view>
+    </view> -->
+    <!-- <view class="item-time padding_half" style="color:#3ccccc">
+       <text class="message">{{i.type?"已添加":"未添加"}}</text> 
+    </view> -->
+  </view>
+</scroll-view>
